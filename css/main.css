@@ -586,3 +586,89 @@ a.home-btn__home-blue3:active {
     color: white;
     background-color: #56617a;
 }
+
+/*------------Agenda popup-------*/
+
+
+.home-agenda__container {
+    position: absolute;
+    top: 20rem;
+    left: 60rem;
+
+}
+
+.home-popup__agendaimg {
+    width: 22rem;
+}
+
+#home-btn-pop-x {
+    position: absolute;
+    top: 20px;
+    left: 320px;
+    color: #fdb273;
+}
+
+.home-popup_h1 {
+    font-family: var(--font-sans-serif);
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    color: #fdb273;
+}
+
+.home-popup_img {
+    width: 300px;
+    position: absolute;
+    top: 60px;
+    left: 25px;
+}
+
+.home-popup_text {
+    font-family: var(--font-sans-serif);
+    font-weight: 300;
+    font-size: 14px;
+    color: #133a69;
+    line-height: 18px;
+    position: absolute;
+    top: 200px;
+    left: 25px;
+}
+
+.home-popup_btn-orange {
+    font-family: var(--font-sans-serif);
+    font-weight: bold;
+    border: none;
+    color: white;
+    background: #fdb273;
+    padding: 1rem 7.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-block;
+    margin: 1rem;
+    position: absolute;
+    top: 275px;
+    left: 10px;
+}
+
+/*link active--*/
+a.home-popup_btn-orange:link {
+    color: white;
+    text-decoration: none;
+}
+
+a.home-popup_btn-orange:visited {
+    color: white;
+    border-color: white;
+    text-decoration: none;
+}
+
+a.home-popup_btn-orange:hover {
+    color: white;
+    background-color: #56617a;
+}
+
+a.home-popup_btn-orange:active {
+    color: white;
+    background-color: #56617a;
+}
