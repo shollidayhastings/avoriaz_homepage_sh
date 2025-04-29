@@ -25,6 +25,7 @@ html {
 #snowboarder {
     max-width: 100%;
     max-height: 100%;
+    display: block;
     position: absolute;
     left: 0px;
     top: 0;
@@ -671,4 +672,144 @@ a.home-popup_btn-orange:hover {
 a.home-popup_btn-orange:active {
     color: white;
     background-color: #56617a;
+}
+
+/*------------------------------*/
+.help-icon {
+    width: 3rem;
+    position: absolute;
+    bottom: 0;
+}
+
+/*---------------OPENING DAY SECTION-------*/
+
+.home-opening-container {
+    position: relative;
+    display: block;
+}
+
+.feature__1opening-container {
+    position: absolute;
+    display: block;
+    top: 50rem;
+    left: 20rem;
+}
+
+.feature__open1 {
+    width: 100%;
+    margin: 2rem;
+    position: absoute;
+    top: 0;
+    left: 0;
+}
+
+.opening-orange {
+    font-family: var(--font-sans-serif);
+    font-size: 1.3rem;
+    color: #fdb273;
+    text-align: center;
+    line-height: 2rem;
+    margin: 0;
+}
+
+.date-black {
+    font-family: var(--font-sans-serif);
+    font-size: 1.3rem;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+/*Mountains for All*/
+
+.nav-feature__container {
+    width: 62.5rem;
+    background-color: white;
+    margin: 2rem;
+    display: block;
+    position: relative;
+}
+
+.home-feature2__container {
+    width: 62.5rem;
+    height: 32rem;
+    margin: 2rem;
+    position: absolute;
+    top: 60rem;
+    left: 0;
+    display: block;
+}
+
+.headline__feature-img1 {
+    width: 18rem;
+    height: 29rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.headline__feature-img2 {
+    width: 9.5rem;
+    height: 25rem;
+    position: absolute;
+    left: 60rem;
+    top: 0;
+}
+
+.headline__feature-text-orange {
+    font-family: var(--font-sans-serif);
+    color: #fdb273;
+    font-size: 5rem;
+    position: absolute;
+    top: 0;
+    left: 230px;
+}
+
+.headline__feature-text-black {
+    font-family: var(--font-sans-serif);
+    color: black;
+    font-size: 5rem;
+    position: absolute;
+    top: 5rem;
+    left: 20rem;
+}
+
+.headline__feature-text {
+    font-family: "Poppins";
+    font-style: italic;
+    font-size: .6rem;
+    line-height: .9rem;
+    color: #56617a;
+    position: absolute;
+    top: 16rem;
+    left: 21rem;
+}
+
+.headline__feature-button-orange {
+    font-family: var(--font-sans-serif);
+    font-weight: bold;
+    border: none;
+    color: white;
+    background: #fdb273;
+    padding: 10px 42px;
+    font-size: 5px;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    top: 23.5rem;
+    left: 21rem;
+}
+
+.feature__nav-icons {
+    width: 9rem;
+    position: absolute;
+    top: 20rem;
+    left: 48rem;
+}
+
+.feature__nav-circles {
+    width: 100px;
+    position: absolute;
+    top: 26rem;
+    left: 60rem;
 }
