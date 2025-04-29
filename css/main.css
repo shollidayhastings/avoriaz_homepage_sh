@@ -294,3 +294,119 @@ a.navhero-extras:active {
 /*Icon Nav active Links
 NEED TO LOOK UP AGAIN
 */
+
+/* BUTTON FEATURE LOCKUP*/
+
+.btn__lockup-container {
+    position: relative;
+}
+
+.btn__home-orange1 {
+    font-family: var(--font-sans-serif);
+    color: white;
+    background: #fdb273;
+    padding: 9px 70px;
+    font-size: 10px;
+    line-height: 5px;
+    text-align: left;
+    display: block;
+    border: none;
+    cursor: pointer;
+    margin: 1rem 0 0 2rem;
+    position: relative;
+}
+
+.btn__home-text {
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    line-height: 4px;
+}
+
+#btn__hotel-icon {
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.btn__home-textlg {
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    line-height: 15px;
+}
+
+.btn__home-gray2 {
+    font-family: var(--font-sans-serif);
+    color: #133a69;
+    background: white;
+    padding: 10px 73px;
+    font-size: 10px;
+    line-height: 6px;
+    text-align: left;
+    display: block;
+    border: none;
+    cursor: pointer;
+    margin: 0 5rem;
+    position: relative;
+    margin: 0 0 0 2rem;
+}
+
+.btn__home-text-pass {
+    font-weight: 600;
+    font-size: 16px;
+    color: #133a69;
+    line-height: 4px;
+}
+
+#btn__card-icon {
+    font-size: 1.2rem;
+    color: #133a69;
+    position: absolute;
+    top: 28px;
+    left: 20px;
+}
+
+#btn__arrow-card-icon {
+    font-size: 1.1rem;
+    color: #133a69;
+    position: absolute;
+    top: 28px;
+    left: 200px;
+}
+
+.btn__home-blue3 {
+    font-family: var(--font-sans-serif);
+    color: white;
+    background: #133a69;
+    padding: 10px 61px;
+    font-size: 10px;
+    line-height: 2px;
+    text-align: left;
+    display: block;
+    border: none;
+    cursor: pointer;
+    margin: 0 5rem;
+    position: relative;
+    margin: 0 0 0 2rem;
+}
+
+#btn__map-icon {
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+
+#btn__arrow-map-icon {
+    font-size: 1.1rem;
+    color: white;
+    position: absolute;
+    top: 35px;
+    left: 200px;
+}
+
+/*-----------------------*/
