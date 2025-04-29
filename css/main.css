@@ -291,17 +291,126 @@ a.navhero-extras:active {
     left: 2rem;
 }
 
-/*Icon Nav active Links
-NEED TO LOOK UP AGAIN
-*/
+/*Icon Nav active Links*/
 
-/* BUTTON FEATURE LOCKUP*/
-
-.btn__lockup-container {
-    position: relative;
+a.icon-btn1_home:link {
+    color: #133a69;
+    text-decoration: none;
 }
 
-.btn__home-orange1 {
+a.icon-btn1_home:visited {
+    color: #133a69;
+    border-color: white;
+    text-decoration: none;
+}
+
+a.icon-btn1_home:hover {
+    font-size: 20px;
+    color: #fdb273;
+    border: 1px solid #fdb273;
+    font-weight: bolder;
+}
+
+a.icon-btn1_home:active {
+    font-size: larger;
+    color: #fdb273;
+    border: 1px solid #fdb273;
+    font-weight: bolder;
+}
+
+/*------------------*/
+
+a.icon-btn2_home:link {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.icon-btn2_home:visited {
+    color: #133a69;
+    border-color: white;
+    text-decoration: none;
+}
+
+a.icon-btn2_home:hover {
+    font-size: 20px;
+    color: #fdb273;
+    border: 1px solid #fdb273;
+    font-weight: bolder;
+}
+
+a.icon-btn2_home:active {
+    font-size: larger;
+    color: #fdb273;
+    border: 1px solid #fdb273;
+    font-weight: bolder;
+}
+
+/*------------------*/
+
+a.icon-btn3_home:link {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.icon-btn3_home:visited {
+    color: #133a69;
+    border-color: white;
+    text-decoration: none;
+}
+
+a.icon-btn3_home:hover {
+    font-size: 20px;
+    color: #fdb273;
+    border: 1px solid #fdb273;
+    font-weight: bolder;
+}
+
+a.icon-btn3_home:active {
+    font-size: larger;
+    color: #fdb273;
+    border: 1px solid #fdb273;
+    font-weight: bolder;
+}
+
+/*------------------*/
+
+a.icon-btn4_home:link {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.icon-btn4_home:visited {
+    color: #133a69;
+    border-color: white;
+    text-decoration: none;
+}
+
+a.icon-btn4_home:hover {
+    font-size: 20px;
+    color: #fdb273;
+    border: 1px solid #fdb273;
+    font-weight: bolder;
+}
+
+a.icon-btn4_home:active {
+    font-size: larger;
+    color: #fdb273;
+    border: 1px solid #fdb273;
+    font-weight: bolder;
+}
+
+/*--------------------------*/
+
+/* home-button lockup*/
+
+
+.home-btn__lockup-container {
+    position: absolute;
+    top: 400px;
+    left: 0;
+}
+
+.home-btn__home-orange1 {
     font-family: var(--font-sans-serif);
     color: white;
     background: #fdb273;
@@ -316,14 +425,14 @@ NEED TO LOOK UP AGAIN
     position: relative;
 }
 
-.btn__home-text {
+.home-btn__home-text {
     font-weight: 600;
     font-size: 15px;
     color: white;
     line-height: 4px;
 }
 
-#btn__hotel-icon {
+#home-btn__hotel-icon {
     font-size: 1.2rem;
     color: white;
     position: absolute;
@@ -331,18 +440,18 @@ NEED TO LOOK UP AGAIN
     left: 20px;
 }
 
-.btn__home-textlg {
+.home-btn__home-textlg {
     font-weight: 600;
     font-size: 16px;
     color: white;
     line-height: 15px;
 }
 
-.btn__home-gray2 {
+.home-btn__home-gray2 {
     font-family: var(--font-sans-serif);
     color: #133a69;
     background: white;
-    padding: 10px 73px;
+    padding: 10px 70px;
     font-size: 10px;
     line-height: 6px;
     text-align: left;
@@ -354,14 +463,14 @@ NEED TO LOOK UP AGAIN
     margin: 0 0 0 2rem;
 }
 
-.btn__home-text-pass {
+.home-btn__home-text-pass {
     font-weight: 600;
     font-size: 16px;
     color: #133a69;
     line-height: 4px;
 }
 
-#btn__card-icon {
+#home-btn__card-icon {
     font-size: 1.2rem;
     color: #133a69;
     position: absolute;
@@ -369,7 +478,7 @@ NEED TO LOOK UP AGAIN
     left: 20px;
 }
 
-#btn__arrow-card-icon {
+#home-btn__arrow-card-icon {
     font-size: 1.1rem;
     color: #133a69;
     position: absolute;
@@ -377,7 +486,7 @@ NEED TO LOOK UP AGAIN
     left: 200px;
 }
 
-.btn__home-blue3 {
+.home-btn__home-blue3 {
     font-family: var(--font-sans-serif);
     color: white;
     background: #133a69;
@@ -393,7 +502,7 @@ NEED TO LOOK UP AGAIN
     margin: 0 0 0 2rem;
 }
 
-#btn__map-icon {
+#home-btn__map-icon {
     font-size: 1.2rem;
     color: white;
     position: absolute;
@@ -401,7 +510,7 @@ NEED TO LOOK UP AGAIN
     left: 20px;
 }
 
-#btn__arrow-map-icon {
+#home-btn__arrow-map-icon {
     font-size: 1.1rem;
     color: white;
     position: absolute;
@@ -409,4 +518,71 @@ NEED TO LOOK UP AGAIN
     left: 200px;
 }
 
-/*-----------------------*/
+/*------------------*/
+
+a.home-btn__home-orange1:link {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-btn__home-orange1:visited {
+    color: #133a69;
+    border-color: white;
+    text-decoration: none;
+}
+
+a.home-btn__home-orange1:hover {
+    color: white;
+    background-color: #56617a;
+}
+
+a.home-btn__home-orange1:active {
+    color: white;
+    background-color: #56617a;
+}
+
+/*------------------*/
+
+a.home-btn__home-gray2:link {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-btn__home-gray2:visited {
+    color: #133a69;
+    border-color: white;
+    text-decoration: none;
+}
+
+a.home-btn__home-gray2:hover {
+    color: white;
+    background-color: #56617a;
+}
+
+a.home-btn__home-gray2:active {
+    color: white;
+    background-color: #56617a;
+}
+
+/*------------------*/
+
+a.home-btn__home-blue3:link {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-btn__home-blue3:visited {
+    color: #133a69;
+    border-color: white;
+    text-decoration: none;
+}
+
+a.home-btn__home-blue3:hover {
+    color: white;
+    background-color: #56617a;
+}
+
+a.home-btn__home-blue3:active {
+    color: white;
+    background-color: #56617a;
+}
