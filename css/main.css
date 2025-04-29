@@ -1,0 +1,127 @@
+.root {
+    --font-sans-serif: Poppins, sans-serif;
+    --orange-light: #fdb273;
+    --gray: #56617a;
+    --blue-dark: #133a69;
+}
+
+body {
+    font-family: Poppins;
+}
+
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* VIDEO BACKGROUND */
+#snowboarder {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    z-index: -1;
+}
+
+/* HEADER */
+
+.header-b__container {
+    position: relative;
+}
+
+.header_hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo-lockup {
+    margin: .5rem;
+    width: 10rem;
+}
+
+.navbar_hero-container {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    width: 100%;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navbar_hero-list-b {
+    font-family: var(--font-sans-serif);
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    padding: 1rem;
+    margin: 0;
+}
+
+/*Hero Nav Links*/
+
+a.nav-links:link {
+    color: white;
+    text-decoration: none;
+}
+
+a.nav-links:visited {
+    color: white;
+    border-color: white;
+    text-decoration: none;
+}
+
+a.nav-links:hover {
+    color: #fdb273;
+    border-color: fdb273;
+    font-weight: bolder;
+}
+
+a.nav-links:active {
+    color: #fdb273;
+    font-weight: bolder;
+}
+
+/*Hero Extras Nav Links*/
+
+a.navhero-extra:link {
+    color: white;
+    text-decoration: none;
+}
+
+a.navhero-extra:visited {
+    color: white;
+    border-color: white;
+    text-decoration: none;
+}
+
+a.navhero-extra:hover {
+    color: #fdb273;
+    border-color: fdb273;
+    font-weight: bolder;
+}
+
+a.navhero-extras:active {
+    color: #fdb273;
+    font-weight: bolder;
+}
