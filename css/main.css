@@ -764,30 +764,30 @@ a.home-popup_btn-orange:active {
 .headline__feature-text-orange {
     font-family: var(--font-sans-serif);
     color: #fdb273;
-    font-size: 5rem;
+    font-size: 6rem;
     position: absolute;
-    top: 0;
-    left: 280px;
+    top: 3rem;
+    left: 267px;
 }
 
 .headline__feature-text-black {
     font-family: var(--font-sans-serif);
     color: black;
-    font-size: 5rem;
+    font-size: 6rem;
     position: absolute;
-    top: 5rem;
-    left: 20rem;
+    top: 9rem;
+    left: 25rem;
 }
 
 .headline__feature-text {
     font-family: "Poppins";
     font-style: italic;
-    font-size: .6rem;
-    line-height: .9rem;
+    font-size: .7rem;
+    line-height: 1rem;
     color: #56617a;
     position: absolute;
-    top: 16rem;
-    left: 21rem;
+    top: 19.5rem;
+    left: 25rem;
 }
 
 .headline__feature-button-orange {
@@ -797,12 +797,12 @@ a.home-popup_btn-orange:active {
     color: white;
     background: #fdb273;
     padding: 10px 42px;
-    font-size: 5px;
+    font-size: .8rem;
     cursor: pointer;
     display: inline-block;
     position: absolute;
-    top: 23.5rem;
-    left: 21rem;
+    top: 28rem;
+    left: 25rem;
 }
 
 .feature__nav-icons {
@@ -817,6 +817,27 @@ a.home-popup_btn-orange:active {
     position: absolute;
     top: 26rem;
     left: 60rem;
+}
+
+/*link active--*/
+a.headline__feature-button-orange:link {
+    color: white;
+    text-decoration: none;
+}
+
+a.headline__feature-button-orange:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a.headline__feature-button-orange:hover {
+    color: white;
+    background-color: #133a69;
+}
+
+a.headline__feature-button-orange:active {
+    color: white;
+    background-color: #133a69;
 }
 
 /*-------feature 3 Mountains for All---------*/
@@ -893,7 +914,7 @@ a.home-popup_btn-orange:active {
 }
 
 .home-feature3__smimg {
-    width: 32rem;
+    width: 34rem;
     position: absolute;
     top: 15rem;
     left: 16rem;
@@ -902,23 +923,24 @@ a.home-popup_btn-orange:active {
 .home-icon-container {
     position: absolute;
     top: 20rem;
-    left: 50rem;
+    left: 55rem;
 }
 
 .home-icon__number {
     font-family: var(--font-sans-serif);
     font-weight: 500;
-    font-size: .8rem;
+    font-size: .9rem;
     color: #fdb273;
     display: inline-block;
-    margin: 0 .3rem;
+    margin: 0 1rem;
 }
 
 .home-icon__text {
     font-family: var(--font-sans-serif);
     font-weight: 500;
-    font-size: .7rem;
+    font-size: .9rem;
     color: #56617a;
+    text-align: left;
     display: inline-block;
     margin: .3rem;
 }
@@ -929,20 +951,41 @@ a.home-popup_btn-orange:active {
     border: none;
     color: white;
     background: #fdb273;
-    padding: 8px 30px;
-    font-size: 7px;
+    padding: 10px 42px;
+    font-size: .8rem;
     cursor: pointer;
     display: inline-block;
     margin: 20px 0 0 5px;
     position: absolute;
-    top: 10rem;
+    top: 11rem;
 }
 
 .home-feature3__slide-icons {
     width: 7rem;
     margin: 73px 0 0 5px;
     position: absolute;
-    top: 9rem;
+    top: 10.5rem;
+}
+
+/*link active--*/
+a.home-feature3__btn-orange:link {
+    color: white;
+    text-decoration: none;
+}
+
+a.home-feature3__btn-orange:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a.home-feature3__btn-orange:hover {
+    color: white;
+    background-color: #133a69;
+}
+
+a.home-feature3__btn-orange:active {
+    color: white;
+    background-color: #133a69;
 }
 
 /*---------Feature 4 Hotels Section----------*/
@@ -972,21 +1015,21 @@ a.home-popup_btn-orange:active {
     font-family: var(--font-sans-serif);
     font-weight: 400;
     color: white;
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 700;
     position: absolute;
     top: 2rem;
-    left: 23rem;
+    left: 32rem;
 }
 
 .home-feature4__subline {
     font-family: var(--font-sans-serif);
     font-weight: 700;
     color: #fdb273;
-    font-size: .7rem;
+    font-size: .9rem;
     position: absolute;
-    top: 8.5rem;
-    left: 28rem;
+    top: 10.5rem;
+    left: 36.5rem;
 }
 
 .home-feature4__btn-orange {
@@ -995,12 +1038,14 @@ a.home-popup_btn-orange:active {
     border: none;
     color: white;
     background: #fdb273;
-    padding: 8px 30px;
-    font-size: 7px;
+    padding: 10px 42px;
+    font-size: .8rem;
     cursor: pointer;
+    display: inline-block;
+    margin: 20px 0 0 5px;
     position: absolute;
-    top: 11rem;
-    left: 28rem;
+    top: 13rem;
+    left: 40rem;
 }
 
 .home-feature4__subimgs__container {
@@ -1037,6 +1082,27 @@ a.home-popup_btn-orange:active {
     position: absolute;
     bottom: 0rem;
     left: 50rem;
+}
+
+/*link active--*/
+a.home-feature4__btn-orange:link {
+    color: white;
+    text-decoration: none;
+}
+
+a.home-feature4__btn-orange:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a.home-feature4__btn-orange:hover {
+    color: white;
+    background-color: #133a69;
+}
+
+a.home-feature4__btn-orange:active {
+    color: white;
+    background-color: #133a69;
 }
 
 /*-------FEATURE 5 Deals---------*/
@@ -1100,14 +1166,35 @@ a.home-popup_btn-orange:active {
     border: none;
     color: white;
     background: #fdb273;
-    padding: 13px 25px;
-    font-size: 7px;
+    padding: 10px 42px;
+    font-size: .8rem;
     cursor: pointer;
     display: inline-block;
-    margin: 4px;
+    margin: 20px 0 0 5px;
     position: absolute;
-    top: 32rem;
-    left: 71rem;
+    top: 31rem;
+    left: 65rem;
+}
+
+/*link active--*/
+a.home-deal__btn-orange:link {
+    color: white;
+    text-decoration: none;
+}
+
+a.home-deal__btn-orange:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a.home-deal__btn-orange:hover {
+    color: white;
+    background-color: #133a69;
+}
+
+a.home-deal__btn-orange:active {
+    color: white;
+    background-color: #133a69;
 }
 
 /*-------FEATURE 6 Events---------*/
@@ -1133,23 +1220,23 @@ a.home-popup_btn-orange:active {
 .home-events__subhead {
     font-family: var(--font-sans-serif);
     font-weight: 600;
-    font-size: 1.9rem;
+    font-size: 3rem;
     color: #fdb273;
     position: absolute;
     top: 6rem;
-    left: 25rem;
+    left: 33rem;
 }
 
 .home-events__headline {
     font-family: var(--font-sans-serif);
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 5rem;
     color: white;
     text-align: center;
     line-height: 50px;
     position: absolute;
-    top: 8rem;
-    left: 14rem;
+    top: 10rem;
+    left: 15rem;
 }
 
 .home-event__lgdatel-1 {
@@ -1158,8 +1245,8 @@ a.home-popup_btn-orange:active {
     font-size: 2.5rem;
     color: white;
     position: absolute;
-    top: 20rem;
-    left: 5rem;
+    top: 29rem;
+    left: 6rem;
 }
 
 .home-event__lgdater {
@@ -1168,40 +1255,40 @@ a.home-popup_btn-orange:active {
     font-size: 2.5rem;
     color: #fdb273;
     position: absolute;
-    top: 20rem;
-    left: 8rem;
+    top: 29rem;
+    left: 9rem;
 }
 
 .home-event__smdate1 {
     font-family: var(--font-sans-serif);
     font-weight: 700;
     font-size: 1rem;
-    color: white;
-    opacity: .5;
+    color: #fdb273;
     position: absolute;
-    top: 24rem;
-    left: 8rem;
+    top: 33rem;
+    left: 9rem;
 }
 
 .home-event__title1 {
     font-family: var(--font-sans-serif);
     font-weight: 700;
-    font-size: .7rem;
+    font-size: .8rem;
     color: white;
     position: absolute;
-    top: 22rem;
-    left: 11rem;
+    top: 31rem;
+    left: 12rem;
 }
 
 .home-event__copy1 {
     font-family: var(--font-sans-serif);
     font-weight: 300;
-    font-size: .5rem;
+    font-size: .7rem;
+    line-height: 1rem;
     color: white;
     opacity: 50%;
     position: absolute;
-    top: 23.5rem;
-    left: 11rem;
+    top: 32.5rem;
+    left: 12rem;
 }
 
 /*----------------2--------------------*/
@@ -1211,8 +1298,8 @@ a.home-popup_btn-orange:active {
     font-size: 2.5rem;
     color: white;
     position: absolute;
-    top: 20rem;
-    left: 22rem;
+    top: 29rem;
+    left: 32rem;
 }
 
 .home-event__lgdater2 {
@@ -1221,40 +1308,40 @@ a.home-popup_btn-orange:active {
     font-size: 2.5rem;
     color: #fdb273;
     position: absolute;
-    top: 20rem;
-    left: 25.5rem;
+    top: 29rem;
+    left: 35.8rem;
 }
 
 .home-event__smdate2 {
     font-family: var(--font-sans-serif);
     font-weight: 700;
     font-size: 1rem;
-    color: white;
-    opacity: .5;
+    color: #fdb273;
     position: absolute;
-    top: 24rem;
-    left: 25.5rem;
+    top: 33rem;
+    left: 35.5rem;
 }
 
 .home-event__title2 {
     font-family: var(--font-sans-serif);
     font-weight: 700;
-    font-size: .7rem;
+    font-size: .8rem;
     color: white;
     position: absolute;
-    top: 22rem;
-    left: 28.5rem;
+    top: 31rem;
+    left: 39rem;
 }
 
 .home-event__copy2 {
     font-family: var(--font-sans-serif);
     font-weight: 300;
-    font-size: .5rem;
+    font-size: .7rem;
+    line-height: 1rem;
     color: white;
     opacity: 50%;
     position: absolute;
-    top: 23.5rem;
-    left: 28.5rem;
+    top: 32.5rem;
+    left: 39rem;
 }
 
 /*----------------3--------------------*/
@@ -1264,8 +1351,8 @@ a.home-popup_btn-orange:active {
     font-size: 2.5rem;
     color: white;
     position: absolute;
-    top: 20rem;
-    left: 39.5rem;
+    top: 29rem;
+    left: 59rem;
 }
 
 .home-event__lgdater3 {
@@ -1274,8 +1361,8 @@ a.home-popup_btn-orange:active {
     font-size: 2.5rem;
     color: #fdb273;
     position: absolute;
-    top: 20rem;
-    left: 42.5rem;
+    top: 29rem;
+    left: 62rem;
 }
 
 .home-event__smdate3 {
@@ -1284,52 +1371,70 @@ a.home-popup_btn-orange:active {
     font-size: 1rem;
     color: #fdb273;
     position: absolute;
-    top: 24rem;
-    left: 42.5rem;
+    top: 33rem;
+    left: 62rem;
 }
 
 .home-event__title3 {
     font-family: var(--font-sans-serif);
     font-weight: 700;
-    font-size: .7rem;
+    font-size: .8rem;
     color: white;
     position: absolute;
-    top: 22rem;
-    left: 45.5rem;
+    top: 31rem;
+    left: 65rem;
 }
 
 .home-event__copy3 {
     font-family: var(--font-sans-serif);
     font-weight: 300;
-    font-size: .5rem;
+    font-size: .7rem;
+    line-height: 1rem;
     color: white;
     opacity: 50%;
     position: absolute;
-    top: 23.5rem;
-    left: 45.5rem;
+    top: 32.5rem;
+    left: 65rem;
 }
 
 .home-event__orangebtn {
     font-family: var(--font-sans-serif);
-    font-weight: 300;
+    font-weight: bold;
     border: none;
     color: white;
     background: #fdb273;
-    padding: 10px 20px;
-    font-size: 8px;
+    padding: 10px 42px;
+    font-size: .8rem;
     cursor: pointer;
+    display: inline-block;
+    margin: 20px 0 0 5px;
     position: absolute;
-    top: 27.5rem;
-    left: 28.5rem;
+    top: 37.5rem;
+    left: 38rem;
+}
+
+/*link active--*/
+a.home-event__orangebtn:link {
+    color: white;
+    text-decoration: none;
+}
+
+a.home-event__orangebtn:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a.home-event__orangebtn:hover {
+    color: white;
+    background-color: #133a69;
+}
+
+a.home-event__orangebtn:active {
+    color: white;
+    background-color: #133a69;
 }
 
 /*-------FEATURE 7 social media---------*/
-
-.home-feature8_container {
-    width: 85rem;
-    display: block;
-    position: relative;
-}
 
 .home-social__container {
     width: 85rem;
@@ -1340,140 +1445,262 @@ a.home-popup_btn-orange:active {
 
 .home__social-backimg {
     width: 85rem;
+    height: auto;
 }
 
 .home-social__h2 {
     font-family: var(--font-sans-serif);
     font-weight: 700;
     color: #fdb273;
-    font-size: 2rem;
+    font-size: 2.5rem;
     position: absolute;
-    top: 2rem;
-    left: 23rem;
+    top: 9rem;
+    left: 36rem;
 }
 
 .home-social__h1 {
     font-family: var(--font-sans-serif);
     font-weight: 700;
     color: #fdb273;
-    font-size: 6rem;
+    font-size: 8rem;
     position: absolute;
-    top: 2rem;
-    left: 15rem;
+    top: 10rem;
+    left: 27rem;
 }
 
 #home-btn_fb {
     background-color: white;
     color: #fdb273;
     border: 2px solid #fcd2b0;
-    font-size: 18px;
+    font-size: 1.5rem;
     border-radius: 50%;
-    padding: 15px 20px;
+    padding: 1rem 1.5rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    top: 15rem;
-    left: 18rem;
+    top: 27rem;
+    left: 34rem;
 }
 
 #home-btn_ig {
     background-color: white;
     color: #fdb273;
     border: 2px solid #fcd2b0;
-    font-size: 18px;
+    font-size: 1.5rem;
     border-radius: 50%;
-    padding: 15px 20px;
+    padding: 1rem 1.3rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    top: 15rem;
-    left: 23rem;
+    top: 27rem;
+    left: 39rem;
 }
 
 #home-btn_twit {
     background-color: white;
     color: #fdb273;
     border: 2px solid #fcd2b0;
-    font-size: 18px;
+    font-size: 1.5rem;
     border-radius: 50%;
-    padding: 15px 20px;
+    padding: 1rem 1.2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    top: 15rem;
-    left: 28rem;
+    top: 27rem;
+    left: 44rem;
 }
 
 #home-btn_youtube {
     background-color: white;
     color: #fdb273;
     border: 2px solid #fcd2b0;
-    font-size: 18px;
+    font-size: 1.5rem;
     border-radius: 50%;
-    padding: 15px 18px;
+    padding: 1rem 1.2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    top: 15rem;
-    left: 33rem;
+    top: 27rem;
+    left: 49rem;
 }
 
 #home-btn_p {
     background-color: white;
     color: #fdb273;
     border: 2px solid #fcd2b0;
-    font-size: 18px;
+    font-size: 1.5rem;
     border-radius: 50%;
-    padding: 15px 20px;
+    padding: 1rem 1.4rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    top: 15rem;
-    left: 38rem;
+    top: 27rem;
+    left: 54rem;
 }
 
 #home-btn_tik {
     background-color: white;
     color: #fdb273;
     border: 2px solid #fcd2b0;
-    font-size: 18px;
+    font-size: 1.5rem;
     border-radius: 50%;
-    padding: 15px 20px;
+    padding: 1rem 1.3rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    top: 15rem;
-    left: 43rem;
+    top: 27rem;
+    left: 59rem;
 }
 
 .home-social__h1-bk {
     font-family: var(--font-sans-serif);
     font-weight: 700;
     color: black;
-    font-size: 6rem;
+    font-size: 8rem;
     position: absolute;
-    top: 16rem;
-    left: 27rem;
+    top: 27rem;
+    left: 40rem;
 }
 
-.home-social-btn_hand {
-    width: 4rem;
-    position: absolute;
-    bottom: 0rem;
-    left: 0rem;
+/*SOCIAL links active--*/
+/*facebook*/
+a#home-btn_fb:link {
+    color: #fdb273;
+    text-decoration: none;
 }
+
+a#home-btn_fb:visited {
+    color: #fdb273;
+    text-decoration: none;
+}
+
+a#home-btn_fb:hover {
+    color: white;
+    background-color: #fdb273;
+}
+
+a#home-btn_fb:active {
+    color: white;
+    background-color: #fdb273;
+}
+
+/*Insta*/
+a#home-btn_ig:link {
+    color: #fdb273;
+    text-decoration: none;
+}
+
+a#home-btn_ig:visited {
+    color: #fdb273;
+    text-decoration: none;
+}
+
+a#home-btn_ig:hover {
+    color: white;
+    background-color: #fdb273;
+}
+
+a#home-btn_ig:active {
+    color: white;
+    background-color: #fdb273;
+}
+
+/*Twit/X*/
+a#home-btn_twit:link {
+    color: #fdb273;
+    text-decoration: none;
+}
+
+a#home-btn_twit:visited {
+    color: #fdb273;
+    text-decoration: none;
+}
+
+a#home-btn_twit:hover {
+    color: white;
+    background-color: #fdb273;
+}
+
+a#home-btn_twit:active {
+    color: white;
+    background-color: #fdb273;
+}
+
+/*Youtube*/
+a#home-btn_youtube:link {
+    color: #fdb273;
+    text-decoration: none;
+}
+
+a#home-btn_youtube:visited {
+    color: #fdb273;
+    text-decoration: none;
+}
+
+a#home-btn_youtube:hover {
+    color: white;
+    background-color: #fdb273;
+}
+
+a#home-btn_youtube:active {
+    color: white;
+    background-color: #fdb273;
+}
+
+/*Pinterest*/
+a#home-btn_p:link {
+    color: #fdb273;
+    text-decoration: none;
+}
+
+a#home-btn_p:visited {
+    color: #fdb273;
+    text-decoration: none;
+}
+
+a#home-btn_p:hover {
+    color: white;
+    background-color: #fdb273;
+}
+
+a#home-btn_p:active {
+    color: white;
+    background-color: #fdb273;
+}
+
+/*Tiktok*/
+a#home-btn_tik:link {
+    color: #fdb273;
+    text-decoration: none;
+}
+
+a#home-btn_tik:visited {
+    color: #fdb273;
+    text-decoration: none;
+}
+
+a#home-btn_tik:hover {
+    color: white;
+    background-color: #fdb273;
+}
+
+a#home-btn_tik:active {
+    color: white;
+    background-color: #fdb273;
+}
+
 
 /*-------FEATURE 8 Views Section---------*/
 
@@ -1493,10 +1720,10 @@ a.home-popup_btn-orange:active {
     font-family: var(--font-sans-serif);
     font-weight: 700;
     color: #fdb273;
-    font-size: 1.6rem;
+    font-size: 2rem;
     position: absolute;
     top: 4rem;
-    left: 27rem;
+    left: 40rem;
 }
 
 .home-view__o {
@@ -1505,18 +1732,18 @@ a.home-popup_btn-orange:active {
     color: #fdb273;
     font-size: 1.1rem;
     position: absolute;
-    top: 4.2rem;
-    left: 32.5rem;
+    top: 5rem;
+    left: 47rem;
 }
 
 .home-view__360 {
-    width: 50px;
+    width: 5rem;
     border: 2px solid rgb(233, 231, 231);
     border-radius: 50%;
-    padding: 10px;
+    padding: .8rem;
     position: absolute;
-    top: 13rem;
-    left: 29rem;
+    top: 15rem;
+    left: 41rem;
 }
 
 /*-------FEATURE 10 Sponsors/Contact---------*/
@@ -1532,6 +1759,41 @@ a.home-popup_btn-orange:active {
 
 .home-contact__backimg {
     width: 85rem;
+}
+
+.sponsor__quote-container {
+    position: relative;
+
+}
+
+.sponsor__quote-text-container {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+}
+
+.sponsor__quote-stars {
+    width: 6rem;
+    position: absolute;
+    bottom: 7rem;
+    left: 13rem;
+}
+
+.sponsor__quote {
+    font-family: var(--font-sans-serif);
+    font-size: .8rem;
+    line-height: 1.2rem;
+    color: #133a69;
+    text-align: center;
+
+}
+
+.sponsor__quote-number {
+    font-family: var(--font-sans-serif);
+    font-size: .8rem;
+    line-height: 1.2rem;
+    color: #fdb273;
+    text-align: center;
 }
 
 .home-contact__elk-icon {
