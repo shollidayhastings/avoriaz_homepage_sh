@@ -695,7 +695,7 @@ a.home-popup_btn-orange:active {
     padding: 1rem;
     color: white;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 3rem;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -713,17 +713,53 @@ a.home-popup_btn-orange:active {
     background-color: #fdb273;
 }
 
-/*Caption text
-.text {
+/*Caption text*/
+.slide_h1-org {
+    font-family: var(--font-sans-serif);
     color: #fdb273;
-    font-size: 1rem;
+    font-size: 7rem;
+    position: absolute;
+    top: 0;
+    left: 20rem;
+    width: 100%;
+    text-align: left;
+    z-index: 1;
+}
+
+.slide_h1-blk {
+    font-family: var(--font-sans-serif);
+    color: black;
+    font-size: 7rem;
+    position: absolute;
+    top: 7rem;
+    left: 28rem;
+    width: 100%;
+    text-align: left;
+    z-index: 1;
+}
+
+.slide_p-text {
+    font-family: var(--font-sans-serif);
+    color: #5d6d81;
+    font-size: .9rem;
+    line-height: 1.5;
+    font-style: italic;
     padding: .5rem .8rem;
     position: absolute;
-    bottom: .5rem;
+    top: 22rem;
+    left: 30rem;
     width: 100%;
-    text-align: center;
+    text-align: left;
+    z-index: 1;
 }
-*/
+
+.slide_arrows {
+    width: 10rem;
+    z-index: 1;
+    position: absolute;
+    top: 25rem;
+    left: 60rem;
+}
 
 /*number text (1/6 etc)*/
 .numbertext {
@@ -734,9 +770,46 @@ a.home-popup_btn-orange:active {
     top: 0;
 }
 
+/*button FIND OUT MORE*/
+.slide_btn {
+    font-family: var(--font-sans-serif);
+    font-weight: bold;
+    border: none;
+    color: white;
+    background: #fdb273;
+    padding: 10px 42px;
+    font-size: .8rem;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    top: 32rem;
+    left: 31rem;
+    text-decoration: none;
+}
+
+/*link active--*/
+a.slide_btn:link {
+    color: white;
+    text-decoration: none;
+}
+
+a.slide_btn:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a.slide_btn:hover {
+    color: white;
+    background-color: #133a69;
+}
+
+a.slide_btn:active {
+    color: white;
+    background-color: #133a69;
+}
 
 
-/*
+/*------------*/
 
 .nav-feature__container {
     max-width: 100%;
@@ -834,6 +907,7 @@ a.home-popup_btn-orange:active {
     top: 26rem;
     left: 60rem;
 }
+
 */
 /*link active--
 a.headline__feature-button-orange:link {
