@@ -692,7 +692,7 @@ a.home-popup_btn-orange:active {
 .feature__1opening-container {
     position: absolute;
     display: block;
-    top: 50rem;
+    top: 43rem;
     left: 20rem;
 }
 
@@ -1055,37 +1055,30 @@ a.home-feature3__btn-orange:active {
     top: 180rem;
 }
 
-.home-feature4__handicon {
-    width: 3rem;
-    position: absolute;
-    bottom: -2rem;
-    left: 3rem;
-}
-
-.home-feature4__img {
-    max-width: 250px;
+.home-feature4__img1 {
+    max-width: 15rem;
     display: inline-block;
     position: absolute;
-    bottom: 0rem;
+    bottom: -5rem;
     left: 12rem;
 }
 
 .home-feature4__img2 {
-    max-width: 290px;
+    max-width: 18rem;
     position: absolute;
-    bottom: 0rem;
+    bottom: -5rem;
     left: 30rem;
-    border: 5px solid #fdb273;
+    border: .5rem solid #fdb273
 }
 
 .home-feature4__img3 {
-    max-width: 250px;
+    max-width: 15rem;
     position: absolute;
-    bottom: 0rem;
+    bottom: -5rem;
     left: 50rem;
 }
 
-/*link active--*/
+/*link active button--*/
 a.home-feature4__btn-orange:link {
     color: white;
     text-decoration: none;
