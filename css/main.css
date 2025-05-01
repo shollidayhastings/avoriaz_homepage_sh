@@ -2054,6 +2054,283 @@ a#home-btn_tik:active {
     left: 45rem;
 }
 
+/*----------active buttons in contact section-------*/
+/*SOCIAL links active--*/
+/*facebook*/
+a.home-btn_contact-fb:link {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-btn_contact-fb:visited {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-btn_contact-fb:hover {
+    color: white;
+    background-color: #fdb273;
+}
+
+a.home-btn_contact-fb:active {
+    color: white;
+    background-color: #fdb273;
+}
+
+/*Insta*/
+a.home-btn_contact-ig:link {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-btn_contact-ig:visited {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-btn_contact-ig:hover {
+    color: white;
+    background-color: #fdb273;
+}
+
+a.home-btn_contact-ig:active {
+    color: white;
+    background-color: #fdb273;
+}
+
+/*Twit/X*/
+a.home-btn_contact-twit:link {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-btn_contact-twit:visited {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-btn_contact-twit:hover {
+    color: white;
+    background-color: #fdb273;
+}
+
+a.home-btn_contact-twit:active {
+    color: white;
+    background-color: #fdb273;
+}
+
+/*Youtube*/
+a.home-btn_contact-youtube:link {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-btn_contact-youtube:visited {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-btn_contact-youtube:hover {
+    color: white;
+    background-color: #fdb273;
+}
+
+a.home-btn_contact-youtube:active {
+    color: white;
+    background-color: #fdb273;
+}
+
+/*Pinterest*/
+a.home-btn_contact-p:link {
+    color: #fdb273;
+    text-decoration: none;
+}
+
+a.home-btn_contact-pvisited {
+    color: #fdb273;
+    text-decoration: none;
+}
+
+a.home-btn_contact-p:hover {
+    color: white;
+    background-color: #fdb273;
+}
+
+a.home-btn_contact-p:active {
+    color: white;
+    background-color: #fdb273;
+}
+
+/*Tiktok*/
+a.home-btn_contact-tik:link {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-btn_contact-tik:visited {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-btn_contact-tik:hover {
+    color: white;
+    background-color: #fdb273;
+}
+
+a.home-btn_contact-tik:active {
+    color: white;
+    background-color: #fdb273;
+}
+
+/*--------Contact Buttons------------*/
+/*Contact*/
+a.home-outline-contact:link {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-outline-contact:visited {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-outline-contact:hover {
+    color: white;
+    background-color: #133a69;
+}
+
+a.home-outline-contact:active {
+    color: white;
+    background-color: #133a69;
+}
+
+/*Press Pass*/
+a.home-outline-press-pack:link {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-outline-press-pack:visited {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-outline-press-pack:hover {
+    color: white;
+    background-color: #133a69;
+}
+
+a.home-outline-press-pack:active {
+    color: white;
+    background-color: #133a69;
+}
+
+/*Brochures*/
+a.home-outline-brochures:link {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-outline-brochures:visited {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-outline-brochures:hover {
+    color: white;
+    background-color: #133a69;
+}
+
+a.home-outline-brochures:active {
+    color: white;
+    background-color: #133a69;
+}
+
+/*FAQ*/
+a.home-outline-faq:link {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-outline-faq:visited {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-outline-faq:hover {
+    color: white;
+    background-color: #133a69;
+}
+
+a.home-outline-faq:active {
+    color: white;
+    background-color: #133a69;
+}
+
+/*PARTNERS*/
+a.home-outline-partners:link {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-outline-partners:visited {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-outline-partners:hover {
+    color: white;
+    background-color: #133a69;
+}
+
+a.home-outline-partners:active {
+    color: white;
+    background-color: #133a69;
+}
+
+/*SEMINARS*/
+a.home-outline-seminars:link {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-outline-seminars:visited {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-outline-seminars:hover {
+    color: white;
+    background-color: #133a69;
+}
+
+a.home-outline-seminars:active {
+    color: white;
+    background-color: #133a69;
+}
+
+/*REGISTER*/
+a.home-outline-register:link {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-outline-register:visited {
+    color: #133a69;
+    text-decoration: none;
+}
+
+a.home-outline-register:hover {
+    color: white;
+    background-color: #133a69;
+}
+
+a.home-outline-register:active {
+    color: white;
+    background-color: #133a69;
+}
+
+
 /*---------footer------------*/
 
 .home-footer__container {
