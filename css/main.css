@@ -1769,7 +1769,7 @@ a#home-btn_tik:active {
 .sponsor__quote-text-container {
     position: absolute;
     top: 5rem;
-    left: 5rem;
+    left: 25rem;
 }
 
 .sponsor__quote-stars {
@@ -1797,10 +1797,10 @@ a#home-btn_tik:active {
 }
 
 .home-contact__elk-icon {
-    width: 80px;
+    width: 6rem;
     position: absolute;
-    top: 20rem;
-    left: 28rem;
+    top: 31rem;
+    left: 37.5rem;
 }
 
 .home-contact__title-media {
@@ -1809,38 +1809,38 @@ a#home-btn_tik:active {
     color: #fdb273;
     font-size: 1.2rem;
     position: absolute;
-    top: 23rem;
-    left: 8rem;
+    top: 37rem;
+    left: 10rem;
 }
 
 .home-outline-contact {
     font-family: "poppins", sans-serif;
-    font-size: .5rem;
+    font-size: .8rem;
     font-weight: 600;
     color: #133a69;
     opacity: 90%;
-    padding: 10px 35px;
+    padding: .6rem 3.1rem;
     background-color: white;
     text-decoration: none;
     border: 1px solid #133a69;
     position: absolute;
-    top: 26rem;
-    left: 8rem;
+    top: 40rem;
+    left: 10rem;
 }
 
 .home-outline-press-pack {
     font-family: "poppins", sans-serif;
-    font-size: .5rem;
+    font-size: .8rem;
     font-weight: 600;
     color: #133a69;
     opacity: 90%;
-    padding: 10px 50px;
+    padding: .6rem 4rem;
     background-color: white;
     text-decoration: none;
     border: 1px solid #133a69;
     position: absolute;
-    top: 26rem;
-    left: 18.5rem;
+    top: 40rem;
+    left: 24rem;
 }
 
 .home-contact__title-info {
@@ -1849,68 +1849,68 @@ a#home-btn_tik:active {
     color: #fdb273;
     font-size: 1.2rem;
     position: absolute;
-    top: 23rem;
-    left: 34rem;
+    top: 37rem;
+    left: 45rem;
 }
 
 .home-outline-brochures {
     font-family: "poppins", sans-serif;
-    font-size: .5rem;
+    font-size: .8rem;
     font-weight: 600;
     color: #133a69;
     opacity: 90%;
-    padding: 10px 60px;
+    padding: .6rem 4rem;
     background-color: white;
     text-decoration: none;
     border: 1px solid #133a69;
     position: absolute;
-    top: 26rem;
-    left: 34rem;
+    top: 40rem;
+    left: 45rem;
 }
 
 .home-outline-faq {
     font-family: "poppins", sans-serif;
-    font-size: .5rem;
+    font-size: .8rem;
     font-weight: 600;
     color: #133a69;
     opacity: 90%;
-    padding: 10px 70px;
+    padding: .6rem 5rem;
     background-color: white;
     text-decoration: none;
     border: 1px solid #133a69;
     position: absolute;
-    top: 26rem;
-    left: 45.5rem;
+    top: 40rem;
+    left: 59rem;
 }
 
 .home-outline-partners {
     font-family: "poppins", sans-serif;
-    font-size: .5rem;
+    font-size: .8rem;
     font-weight: 600;
     color: #133a69;
     opacity: 90%;
-    padding: 10px 65px;
+    padding: .6rem 4.4rem;
     background-color: white;
     text-decoration: none;
     border: 1px solid #133a69;
     position: absolute;
-    top: 28.5rem;
-    left: 34rem;
+    top: 43.5rem;
+    left: 45rem;
 }
 
 .home-outline-seminars {
     font-family: "poppins", sans-serif;
-    font-size: .5rem;
+    font-size: .8rem;
     font-weight: 600;
     color: #133a69;
     opacity: 90%;
-    padding: 10px 36px;
+    padding: .6rem 1.4rem;
     background-color: white;
     text-decoration: none;
     border: 1px solid #133a69;
     position: absolute;
-    top: 28.5rem;
-    left: 45.5rem;
+    top: 43.5rem;
+    left: 59rem;
 }
 
 .home-phone {
@@ -1919,8 +1919,8 @@ a#home-btn_tik:active {
     color: #fdb273;
     font-size: 1.2rem;
     position: absolute;
-    top: 33rem;
-    left: 8rem;
+    top: 48.5rem;
+    left: 10rem;
 }
 
 .home-email {
@@ -1929,8 +1929,8 @@ a#home-btn_tik:active {
     color: #133a69;
     font-size: 1.2rem;
     position: absolute;
-    top: 34.5rem;
-    left: 8rem;
+    top: 50rem;
+    left: 10rem;
 }
 
 .home-btn_contact-fb {
@@ -1939,14 +1939,14 @@ a#home-btn_tik:active {
     border: 1px solid lightgray;
     font-size: 10px;
     border-radius: 50%;
-    padding: 5px 8px;
+    padding: 5px 8.3px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    top: 37.5rem;
-    left: 8rem;
+    top: 53rem;
+    left: 10rem;
 }
 
 .home-btn_contact-ig {
@@ -1955,14 +1955,14 @@ a#home-btn_tik:active {
     border: 1px solid lightgray;
     font-size: 10px;
     border-radius: 50%;
-    padding: 5px 8px;
+    padding: 5px 7.5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    top: 37.5rem;
-    left: 10rem;
+    top: 53rem;
+    left: 12rem;
 }
 
 .home-btn_contact-twit {
@@ -1971,14 +1971,14 @@ a#home-btn_tik:active {
     border: 1px solid lightgray;
     font-size: 10px;
     border-radius: 50%;
-    padding: 5px 8px;
+    padding: 5px 7px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    top: 37.5rem;
-    left: 12rem;
+    top: 53rem;
+    left: 14rem;
 }
 
 .home-btn_contact-youtube {
@@ -1993,8 +1993,8 @@ a#home-btn_tik:active {
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    top: 37.5rem;
-    left: 14rem;
+    top: 53rem;
+    left: 16rem;
 }
 
 .home-btn_contact-p {
@@ -2003,14 +2003,14 @@ a#home-btn_tik:active {
     border: 1px solid lightgray;
     font-size: 10px;
     border-radius: 50%;
-    padding: 5px 6px;
+    padding: 5px 8px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    top: 37.5rem;
-    left: 16rem;
+    top: 53rem;
+    left: 18rem;
 }
 
 .home-btn_contact-tik {
@@ -2019,14 +2019,14 @@ a#home-btn_tik:active {
     border: 1px solid lightgray;
     font-size: 10px;
     border-radius: 50%;
-    padding: 5px 6px;
+    padding: 5px 8px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    top: 37.5rem;
-    left: 18rem;
+    top: 53rem;
+    left: 20rem;
 }
 
 .home-contact__title-news {
@@ -2035,23 +2035,23 @@ a#home-btn_tik:active {
     color: #fdb273;
     font-size: 1.2rem;
     position: absolute;
-    top: 33rem;
-    left: 34rem;
+    top: 47rem;
+    left: 45rem;
 }
 
 .home-outline-register {
     font-family: "poppins", sans-serif;
-    font-size: .5rem;
+    font-size: .8rem;
     font-weight: 600;
     color: #133a69;
     opacity: 90%;
-    padding: 10px 65px;
+    padding: .6rem 4rem;
     background-color: white;
     text-decoration: none;
     border: 1px solid #133a69;
     position: absolute;
-    top: 36rem;
-    left: 34rem;
+    top: 50rem;
+    left: 45rem;
 }
 
 /*---------footer------------*/
