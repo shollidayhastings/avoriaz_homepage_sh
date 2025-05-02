@@ -20,8 +20,8 @@
 
 <body>
     <main>
+        <!--OLD HEADER
         <section>
-            <!--Nav-->
             <section class="header_hero">
                 <div class="header_hero-container">
                     <nav class="navbar_hero-container">
@@ -38,6 +38,37 @@
                     </nav>
                 </div>
             </section>
+        </section>-->
+
+        <!--NEW HEADER-->
+        <section>
+            <div class="navbar">
+                <img class="logo-lockup" src="./images/avoriaz_logo_remake_sm-wt.svg" alt="white avoriaz logo">
+                <div class="dropdown">
+                    <a class="dropbtn" onclick="myFunction()" href="#discover">Discover</a>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="#">Webcams</a>
+                        <a href="#">Virtual visit of Avoriaz</a>
+                        <a href="#">Street View Tour</a>
+                        <a href="#">Ski area</a>
+                        <a href="#">Mountain bike area</a>
+                        <a href="#">The Summer Activites</a><br>
+                        <a href="#">MAPS AND GUIDES</a>
+                        <a href="#">Resort Map</a>
+                        <a href="#">Ski Area Map</a>
+                        <a href="#">VTT Maps</a>
+                        <a href="#">Offical Avoriaz Guide</a>
+                    </div>
+                    <a href="#staying">Staying</a>
+                    <a href="#winter">Winter Activities</a>
+                    <a href="#summer">Summer Activities</a>
+                    <a href="#agenda">Agenda</a>
+                    <a class="navhero-extra" href="#!"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#en">EN</a>
+                </div>
+            </div>
+            </div>
+
         </section>
 
         <!-- Video-->
@@ -459,6 +490,27 @@
     <div>
         <p class="home-footer__copyright">Copyright 2020</p>
     </div>
+
+    <!--SCRIPT FOR DROPDOWN-->
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (e) {
+            if (!e.target.matches('.dropbtn')) {
+                var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.remove('show');
+                }
+            }
+        }
+    </script>
+
+    <!--SCRIPT FOR SLIDESHOW-->
 
     <script>
         let slideIndex = 1;
