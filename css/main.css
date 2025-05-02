@@ -615,7 +615,8 @@ a.home-popup_btn-orange:active {
 }
 
 /*------------------------------*/
-.help-icon {
+
+#help-icon {
     width: 4rem;
     position: sticky;
     top: 43rem;
